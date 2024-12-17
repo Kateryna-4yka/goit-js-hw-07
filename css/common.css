@@ -184,7 +184,8 @@ button:hover {
 #boxes {
   display: flex;
   padding: 32px;
-
+gap: 44px;
+flex-wrap: wrap;
 }
 
 #controls button:last-of-type {
