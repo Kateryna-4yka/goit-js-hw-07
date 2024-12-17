@@ -8,6 +8,7 @@ function submit(event) {
   
   if (form.elements.email.value.trim() === "" || form.elements.password.value.trim() === "") {
     alert ("All form fields must be filled in");
+    return;
   };
 
 

@@ -28,7 +28,7 @@ const images = [
 
 const gallery = images.map(el => `<li class="gallery-item">
 <a href="#">
-<img class="gallery-img" src="${el.url} alt="${el.alt}" width="360px" height= "300px"/>
+<img class="gallery-img" src="${el.url}" alt="${el.alt}" width="360px" height= "300px" />
 </a>
 </li>`).join("");
 
